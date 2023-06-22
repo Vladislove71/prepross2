@@ -1,0 +1,22 @@
+a {
+  color: red;
+  text-decoration: none;
+}
+
+.block a {
+  color: #fff;
+}
+
+.block {
+  width: 33.3333333333%;
+}
+.block .title {
+  font-size: 20px;
+  color: coral;
+}
+.block:hover {
+  color: aquamarine;
+}
+.block a {
+  font-size: 40px;
+}

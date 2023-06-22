@@ -1,0 +1,28 @@
+@import "nullstyle.scss";
+
+$fz: 20px;
+
+%aWhite {
+	color: #fff;
+}
+
+@mixin fontz($f) {
+	font-size: $f;
+}
+
+.block {
+	width: 300px / 900px * 100%;
+	.title {
+		
+		font-size: $fz;
+		color:coral
+	
+	}
+	&:hover {
+	   color:aquamarine
+	}
+	a {
+		@extend %aWhite;
+		@include fontz(40px);
+	}
+}
